@@ -91,9 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundFallController: {fileID: 1987356813982983700}
   collactables:
-  - {fileID: 2802263051994250001, guid: c5f670a8f0e922444b478ce8ca863655, type: 3}
   - {fileID: 417386118533840115, guid: 1e424f9b54f162543930b66b1eda8059, type: 3}
-  - {fileID: 0}
   pos: {fileID: 8664741974293071037}
 --- !u!114 &1987356813982983700
 MonoBehaviour:

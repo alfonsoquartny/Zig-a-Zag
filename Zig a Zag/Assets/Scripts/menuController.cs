@@ -42,8 +42,5 @@ public class menuController : MonoBehaviour
 
 
 
-    public void loader(string loaderString)
-    {
-        SceneManager.LoadScene(loaderString);
-    }
+ 
 }

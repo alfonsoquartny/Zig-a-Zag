@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: BALLOON DREAMS SDF 1
+  m_Name: BALLOON DREAMS SDF 2
   m_EditorClassIdentifier: 
-  hashCode: -867543839
+  hashCode: -867543838
   material: {fileID: 6909225812896885345}
-  materialHashCode: 838004129
+  materialHashCode: -2103901694
   m_Version: 1.1.0
   m_SourceFontFileGUID: 43a7566c220c93546bbb94906a357939
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 43a7566c220c93546bbb94906a357939, type: 3}
@@ -1476,11 +1476,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Ambient: 0.421
-    - _Bevel: 1
+    - _Bevel: 0.535
     - _BevelClamp: 0
-    - _BevelOffset: -0.178
+    - _BevelOffset: 0.026
     - _BevelRoundness: 0
-    - _BevelWidth: 0
+    - _BevelWidth: -0.253
     - _BumpFace: 0
     - _BumpOutline: 0
     - _ColorMask: 15
@@ -1500,10 +1500,10 @@ Material:
     - _OutlineSoftness: 1
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0.319
+    - _OutlineWidth: 0.7
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 11.58
-    - _ScaleRatioA: 0.5974112
+    - _ScaleRatioA: 0.47682118
     - _ScaleRatioB: 0.73125
     - _ScaleRatioC: 0.73125
     - _ScaleX: 1
@@ -1529,13 +1529,13 @@ Material:
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
-    - _FaceColor: {r: 1, g: 0.4802157, b: 0.07075471, a: 1}
+    - _FaceColor: {r: 4.867145, g: 0.046731323, b: 0, a: 1}
     - _GlowColor: {r: 38.937145, g: 14.881737, b: 0, a: 0.5}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ReflectFaceColor: {r: 1.8443027, g: 1.0015221, b: 0.6469544, a: 1}
+    - _ReflectFaceColor: {r: 1.6055588, g: 0.874231, b: 0.5632065, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecularColor: {r: 1.319508, g: 1.319508, b: 1.319508, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_BuildTextureStacks: []
 --- !u!28 &8830880512978465441

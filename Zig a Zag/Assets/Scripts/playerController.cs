@@ -7,6 +7,7 @@ public class playerController : MonoBehaviour
 
     public Vector3 Direction;
     public Vector3 rotationDirection;
+    public camController cam;
     void Start()
     {
         Direction = Vector3.left;
@@ -47,6 +48,15 @@ public class playerController : MonoBehaviour
         else
         {
             Direction = Vector3.left;
+        }
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("dead"))
+        {
+            cam.dead = true;
         }
     }
 }

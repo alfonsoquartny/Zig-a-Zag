@@ -90,9 +90,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundFallController: {fileID: 1987356813982983700}
-  collactables:
-  - {fileID: 417386118533840115, guid: 1e424f9b54f162543930b66b1eda8059, type: 3}
-  pos: {fileID: 8664741974293071037}
 --- !u!114 &1987356813982983700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,8 +167,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5999638, y: 0.6226374, z: 0.67}
-  m_Center: {x: -0.001704833, y: 0.01075038, z: 0.000032011198}
+  m_Size: {x: 0.54, y: 0.031449493, z: 0.54892904}
+  m_Center: {x: -0.001704833, y: 0.3063443, z: -0.0034922534}
 --- !u!54 &4213788950675956337
 Rigidbody:
   m_ObjectHideFlags: 0

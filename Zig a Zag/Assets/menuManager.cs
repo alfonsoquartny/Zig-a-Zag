@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.UI;
 public class menuManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int highestScore;
+    public TMP_Text highestScoreText;
     void Start()
     {
-        
+        highestScore = PlayerPrefs.GetInt("highestScore");
+        highestScoreText.text = "Highest Meow: " + highestScore;
     }
 
     // Update is called once per frame

@@ -19,4 +19,13 @@ public class groundData : MonoBehaviour
         StartCoroutine(groundFallController.SetRigidBodyValues());
 
     }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("backup"))
+        {
+            StartCoroutine(groundFallController.SetRigidBodyValues());
+        }
+    }
 }

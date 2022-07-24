@@ -24,9 +24,15 @@ public class menuManager : MonoBehaviour
     public void loader(string loaderString)
     {
         SceneManager.LoadScene(loaderString);
+        Debug.Log("Oðuzhan");
+
     }
     public void linkOpener(string link)
     {
         Application.OpenURL(link);
+    }
+    public void exit()
+    {
+        Application.Quit();
     }
 }
